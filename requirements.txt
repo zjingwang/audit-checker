@@ -1,0 +1,20 @@
+# 后端 Web 框架
+fastapi>=0.100
+uvicorn[standard]>=0.23
+python-multipart>=0.0.6
+
+# 图像处理
+pillow>=10.0
+numpy>=1.24
+
+# Excel 审计核对
+openpyxl>=3.1
+requests>=2.31
+pypdfium2>=4.20
+
+# PaddleOCR（离线中文识别）
+paddlepaddle>=2.6
+paddleocr>=2.6
+
+# 仅运行 tests.py / audit_test.py 自测时需要
+httpx>=0.24
